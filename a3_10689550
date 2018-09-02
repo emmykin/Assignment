@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int grade = 0;
+    cout << "What did you get?" ;
+    cin>>grade;
+    if(grade>=80) {
+        cout<< " A" ;
+    }
+   else if(75<=TotalScore && 80>TotalScore){
+        cout<<" B+.";
+    }
+
+   else if(70<=TotalScore && 75>TotalScore){
+    cout<<" B." ;
+   }
+
+    else if(TotalScore>=65 && 70>TotalScore){
+        cout<< " C+" ;
+    }
+
+   else if(60<=TotalScore && 65>TotalScore){
+        cout<<" C." ;
+    }
+
+   else if(55<=TotalScore && 60>TotalScore){
+    cout<<" D+.";
+   }
+
+   else if(TotalScore>=50 && 55>TotalScore){
+        cout<< " D" ;
+    }
+   else if(45<=TotalScore && 50>TotalScore){
+        cout<<" E." ;
+    }
+    else {
+        cout<<" F." ;
+    }
+    
+    
+    return 0;
+}
