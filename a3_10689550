@@ -8,30 +8,30 @@ int main()
     if(grade>=80) {
         cout<< " A" ;
     }
-   else if(75<=TotalScore && 80>TotalScore){
+   else if(75<=grade && 80>grade){
         cout<<" B+.";
     }
 
-   else if(70<=TotalScore && 75>TotalScore){
+   else if(70<=grade && 75>grade){
     cout<<" B." ;
    }
 
-    else if(TotalScore>=65 && 70>TotalScore){
+    else if(grade>=65 && 70>grade){
         cout<< " C+" ;
     }
 
-   else if(60<=TotalScore && 65>TotalScore){
+   else if(60<=grade && 65>grade){
         cout<<" C." ;
     }
 
-   else if(55<=TotalScore && 60>TotalScore){
+   else if(55<=grade && 60>grade){
     cout<<" D+.";
    }
 
-   else if(TotalScore>=50 && 55>TotalScore){
+   else if(grade>=50 && 55>grade){
         cout<< " D" ;
     }
-   else if(45<=TotalScore && 50>TotalScore){
+   else if(45<=grade& 50>grade){
         cout<<" E." ;
     }
     else {
